@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{font-family: 'Poppins', sans-serif;
+	margin:0;
+	padding:0;
+}
+header{
+	background: url(../images/pexels-photo-279376.jpeg);
+	    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center  ;
+}
+.container{       width: 1200px;
+	margin: 0 auto;
+     }
+.header{    padding: 38px;
+    overflow: hidden;
+	
+	color: #fff;
+}
+.logo{width: 20%;
+    float: left;
+       
+}
+.logo img{width: 100px;
+    }
+
+nav{    width: 80%;
+    float: left;}
+
+nav ul{margin: 0;
+    padding: 0;
+    text-align: right;}
+
+nav ul li{   
+    list-style: none;
+        display: inline-block;
+   
+}
+nav ul li a{    text-decoration: none;
+    padding: 15px;
+    color: white;
+    display: block;
+}
+
+
+
+/*********about section***********/
+.about-section{    background: #e2e2e2;
+    padding: 100px 0;
+    overflow: hidden;}
+    span{    color: white;
+    text-align: center;
+    display: block;
+    font-size: 61px;
+    margin-bottom: 30px;}
+.container{}
+
+.about-img{    width: 50%;
+    float: left;}
+.about-img img{margin: 0 auto;
+    max-width: 100%;
+    width: 70%;
+    display: block;}
+.about-me{    width: 50%;
+    float: left;}
+.about-me h3{}
+.about-me h1{}
+.about-me p{    font-size: 20px;
+    margin: 0;
+    margin-bottom: 15px;}
+.about-me .btn{    padding: 8px 13px;
+    display: inline-block;
+    color: #0e0d0d;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid;
+    font-size: 17px;
+    border-radius: 6px;
+transition-duration: 1s;}
+
+
+.about-me .btn:hover{
+	background: #333;
+	color: #fff;
+}
+
+.gallery-section{    background: black;
+    padding: 100px;
+    overflow: hidden;
+}
+ span{    color: white;
+    text-align: center;
+    display: block;
+    font-size: 61px;
+    margin-bottom: 30px;}
+.gallery{   float: left;
+    width: 33.33%;
+    padding: 18px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+ -moz-box-sizing:border-box;
+}
+.gallery img{    max-width: 100%;
+    width: 86%;
+    height: 429px;
+}
